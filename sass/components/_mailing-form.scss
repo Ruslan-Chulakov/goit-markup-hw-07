@@ -1,0 +1,68 @@
+.mailing-form {
+    margin-left: auto;
+}
+
+.mailing-form__title {
+    font-weight: 700;
+    line-height: 0.87;
+    text-transform: uppercase;
+
+    color: var(--font-color);
+}
+
+.mailing-form__field {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.mailing-form__input {
+    font-size: 16px;
+    line-height: 1.25;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6);
+
+    padding: 15px 16px;
+    width: 358px;
+}
+
+.mailing-form__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-color: var(--acent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    color: var(--font-color);
+    min-width: 200px;
+    padding: 10px;
+
+    transition-property: background-color;
+    transition-duration: var(--duration);
+    transition-timing-function: var(--timing-fn);
+
+    &:hover,
+    &:focus {
+        background-color: var(--button-acent);
+    }
+}
+
+// .mailing-form__button:hover,
+// .mailing-form__button:focus {
+//     background-color: var(--button-acent);
+// }
